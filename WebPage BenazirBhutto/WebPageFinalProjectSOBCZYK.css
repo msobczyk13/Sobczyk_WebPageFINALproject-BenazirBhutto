@@ -1,0 +1,111 @@
+/* Mackenzie Sobczyk */
+/* Three Column Template */
+/* January 8, 2018 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+/* Beginning the <h#> CSS */
+
+h1 {
+	text-align: center;
+	}
+
+h3  {
+	text-align: center;
+	}
+	
+h2 {
+	text-align: left;
+	}
+
+/* Ending the <h#> CSS */
+
+header { 
+    border-bottom: 4px solid #000080; 
+    }
+    
+/* starting the image attributes */
+
+.BB1  {
+	height: 200px;
+	width: 150px;
+	margin: 15px;
+	padding: 2px;
+	border: 3px solid #000080;
+	}
+	
+.BB2  {
+	height: 100px;
+	width: 200px;
+	margin: 10px;
+	padding: 2px;
+	border: 3px solid #000080;
+	}	
+	
+.BB3  { 
+	height: 150px;
+	width: 225px;
+	margin: 10px;
+	padding: 2px;
+	border: 3px solid #000080;
+	float: right;
+	}
+	
+/* Ending the image attributes */
+ 
+/* body attributes */
+body {
+    width: 85%;
+    background-color: lightblue;
+    margin: 15px auto;
+    border: 1px solid black; 
+    }
+
+/* left column attributes */
+#sidebarA {
+    width: 24%;
+    height: 540px;     
+    float: left;
+    border-right: 4px solid #000080;
+    text-align: center; 
+    margin: 2px;
+    }
+
+/* main attributes */
+main {
+    width: 50%; 
+    float: left; 
+    }
+
+/* right column attributes */ 
+#sidebarB {
+    width: 24%;
+    height: 540px;     
+    float: right;
+    text-align: center;
+    border-left: 4px solid #000080; 
+    margin: 2px;
+    }
+
+.BP {
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+
+/* footer attributes */
+ 
+#ABC  {
+	float: right;
+	}
+footer {
+	text-align: left;
+    clear: both; 
+    border-top: 1px solid #000080; 
+    padding: 15px;
+    }
+    
+    
+/* Ending the CSS */
+    
